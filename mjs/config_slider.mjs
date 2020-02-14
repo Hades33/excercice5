@@ -5,19 +5,19 @@ export const config_slider = {
 
     list_slide : [
         {
-            titre : 'Le Titre',
-            sousTitre : 'Le sous titre',
-            img : 'img/01_portfolio.jpg'
+            titre : 'nhl',
+            sousTitre : 'crmc',
+            img : 'media/nhl.jpg'
         },
         {
-            titre : 'Le Titre',
-            sousTitre : 'Le sous titre',
-            img : 'img/02_portfolio.jpg'
+            titre : 'hit',
+            sousTitre : 'chpc',
+            img : 'media/nhl2.jpg'
         },
         {
-            titre : 'Le Titre',
-            sousTitre : 'Le sous titre',
-            img : 'img/03_portfolio.jpg'
+            titre : 'fight',
+            sousTitre : 'coka',
+            img : 'media/nhl3.jpg'
         }
 
 
