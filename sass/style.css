@@ -1080,7 +1080,7 @@ scroll-snap-type: mandatory;
   background: transparent;
 }
 
-.slides > div {
+.slides > div > nav {
   scroll-snap-align: start;
   -ms-flex-negative: 0;
       flex-shrink: 0;
@@ -1144,8 +1144,8 @@ img {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 2rem;
+  height: 2rem;
   background: white;
   text-decoration: none;
   -webkit-box-align: center;
@@ -1156,7 +1156,6 @@ img {
           justify-content: center;
   border-radius: 50%;
   margin: 0 0 0.5rem 0;
-  position: relative;
 }
 
 .slider > a:active {
@@ -1189,6 +1188,16 @@ img {
   background: linear-gradient(to bottom, #74ABE2, #5563DE);
   font-family: 'Ropa Sans', sans-serif;
   overflow: hidden;
+}
+
+.mon-slider nav {
+  height: 15px;
+  z-index: 10;
+}
+
+.mon-slider nav a {
+  height: 15px;
+  width: 10px;
 }
 
 /*-------------------------------------------------------------- 
